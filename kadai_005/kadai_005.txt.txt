@@ -34,3 +34,7 @@ PS C:\Users\ogiha\git_challenge> git commit -m "日本語を追記"
 [main ffe3582] 日本語を追記
  1 file changed, 0 insertions(+), 0 deletions(-)
 PS C:\Users\ogiha\git_challenge> 
+PS C:\Users\ogiha\git_challenge> git log --oneline
+ffe3582 (HEAD -> main) 日本語を追記
+b5909ad hello_world.txtを追加
+PS C:\Users\ogiha\git_challenge> 
