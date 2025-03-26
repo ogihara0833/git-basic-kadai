@@ -1,0 +1,40 @@
+PS C:\Users\ogiha> cd
+PS C:\Users\ogiha> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\ogiha
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2025/03/27      4:42                git_challenge        
+
+
+PS C:\Users\ogiha> cd git_challenge
+PS C:\Users\ogiha\git_challenge> git init
+Initialized empty Git repository in C:/Users/ogiha/git_challenge/.git/
+PS C:\Users\ogiha\git_challenge> echo "Hello, world!" >> hello_world.txt
+
+PS C:\Users\ogiha\git_challenge> git add hello_world.txt
+PS C:\Users\ogiha\git_challenge> git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+PS C:\Users\ogiha\git_challenge> git add .
+PS C:\Users\ogiha\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) b5909ad] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\ogiha\git_challenge> git status
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\ogiha\git_challenge> git add hello_world.txt
+PS C:\Users\ogiha\git_challenge> git commit -m "日本語を追記"
+[main ffe3582] 日本語を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\ogiha\git_challenge> 
+PS C:\Users\ogiha\git_challenge> git log --oneline
+ffe3582 (HEAD -> main) 日本語を追記
+b5909ad hello_world.txtを追加
+PS C:\Users\ogiha\git_challenge> 
