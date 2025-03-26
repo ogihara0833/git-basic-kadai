@@ -1,0 +1,40 @@
+PS C:\Users\ogiha> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\ogiha
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2025/03/26     13:07                git_challenge        
+
+
+PS C:\Users\ogiha> cd git_challenge
+PS C:\Users\ogiha\git_challenge> git init
+Initialized empty Git repository in C:/Users/ogiha/git_challenge/.git/ 
+PS C:\Users\ogiha\git_challenge> git add hello_world.txt
+fatal: pathspec 'hello_world.txt' did not match any files
+PS C:\Users\ogiha\git_challenge> git add hello_world.txt
+PS C:\Users\ogiha\git_challenge> git add .
+PS C:\Users\ogiha\git_challenge> git commit -m "英語、日本語を追記"
+[main (root-commit) 0cec712] 英語、日本語を追記
+ 1 file changed, 2 insertions(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\ogiha\git_challenge> git log --oneline
+0cec712 (HEAD -> main) 英語、日本語を追記
+PS C:\Users\ogiha\git_challenge> git commit -m "hello_worldを編集"
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\ogiha\git_challenge> git log --oneline
+0cec712 (HEAD -> main) 英語、日本語を追記
+PS C:\Users\ogiha\git_challenge> git add hello_world.txt
+PS C:\Users\ogiha\git_challenge> git log --oneline      
+0cec712 (HEAD -> main) 英語、日本語を追記
+PS C:\Users\ogiha\git_challenge> git add hello_world.txt           
+PS C:\Users\ogiha\git_challenge> git commit -m "hello_worldを編集"
+[main eb42fc3] hello_worldを編集
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\ogiha\git_challenge> git log --oneline      
+eb42fc3 (HEAD -> main) hello_worldを編集
+0cec712 英語、日本語を追記
+PS C:\Users\ogiha\git_challenge> 
