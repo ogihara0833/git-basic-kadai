@@ -1,0 +1,49 @@
+ogiha@ogiharanote MINGW64 ~/OneDrive/デスクトップ
+$ cd "C:\Users\ogiha"
+
+ogiha@ogiharanote MINGW64 ~
+$ mkdir git_challenge
+
+ogiha@ogiharanote MINGW64 ~
+$ cd "C:\Users\ogiha\git_challenge"
+
+ogiha@ogiharanote MINGW64 ~/git_challenge
+$ git init
+Initialized empty Git repository in C:/Users/ogiha/git_challenge/.git/
+
+ogiha@ogiharanote MINGW64 ~/git_challenge (main)
+$ echo "HEllo, world!" > hello_world.txt
+
+ogiha@ogiharanote MINGW64 ~/git_challenge (main)
+$ git config --global core.autocrlf true
+
+ogiha@ogiharanote MINGW64 ~/git_challenge (main)
+$ git add hello_world.txt
+
+ogiha@ogiharanote MINGW64 ~/git_challenge (main)
+$ git commit -m "hello_worldを追加"
+[main (root-commit) 79b2777] hello_worldを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+ogiha@ogiharanote MINGW64 ~/git_challenge (main)
+$ echo "こんにちは、世界！" > hello_world.txt
+
+ogiha@ogiharanote MINGW64 ~/git_challenge (main)
+$ git config --global core.autocrlf true
+
+ogiha@ogiharanote MINGW64 ~/git_challenge (main)
+$ git add hello_world.txt
+
+ogiha@ogiharanote MINGW64 ~/git_challenge (main)
+$ git commit -m "日本語訳を追記"
+[main 0830f86] 日本語訳を追記
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+ogiha@ogiharanote MINGW64 ~/git_challenge (main)
+$ git log --oneline
+0830f86 (HEAD -> main) 日本語訳を追記
+79b2777 hello_worldを追加
+
+ogiha@ogiharanote MINGW64 ~/git_challenge (main)
+$
