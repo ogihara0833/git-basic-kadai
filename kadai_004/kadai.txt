@@ -1,0 +1,30 @@
+
+ogiha@ogiharanote MINGW64 ~/OneDrive/デスクトップ
+$ cd "C:\Users\ogiha\OneDrive\デスクトップ\HTML2025\samurai課題\git課題"
+
+ogiha@ogiharanote MINGW64 ~/OneDrive/デスクトップ/HTML2025/samurai課題/git課題
+$ mkdir kadai_004
+
+ogiha@ogiharanote MINGW64 ~/OneDrive/デスクトップ/HTML2025/samurai課題/git課題
+$ mkdir kadai_004/kadai_004move
+
+ogiha@ogiharanote MINGW64 ~/OneDrive/デスクトップ/HTML2025/samurai課題/git課題
+$ touch kadai_004/kadai_004.txt
+
+ogiha@ogiharanote MINGW64 ~/OneDrive/デスクトップ/HTML2025/samurai課題/git課題
+$ mv kadai_004/kadai_004.txt "C:\Users\ogiha\OneDrive\デスクトップ\HTML2025\samurai課題\git課題\kadai_004\kadai_004move"
+
+ogiha@ogiharanote MINGW64 ~/OneDrive/デスクトップ/HTML2025/samurai課題/git課題
+$ ls -l
+total 4
+drwxr-xr-x 1 ogiha 197609 0  3月 30 17:53 kadai_004/
+drwxr-xr-x 1 ogiha 197609 0  3月 27 05:10 kadai_005/
+
+ogiha@ogiharanote MINGW64 ~/OneDrive/デスクトップ/HTML2025/samurai課題/git課題
+$ ls kadai_004
+kadai_004move/
+
+ogiha@ogiharanote MINGW64 ~/OneDrive/デスクトップ/HTML2025/samurai課題/git課題
+$ ls kadai_004/kadai_004move
+kadai_004.txt
+
