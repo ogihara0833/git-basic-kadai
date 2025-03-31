@@ -1,0 +1,9 @@
+PS C:\Users\ogiha> ssh -T git@github.com
+Enter passphrase for key 'C:\Users\ogiha/.ssh/id_rsa': 
+Hi ogihara0833! You've successfully authenticated, but GitHub does not provide shell access.
+PS C:\Users\ogiha> 
+PS C:\Users\ogiha> 
+PS C:\Users\ogiha> 
+PS C:\Users\ogiha> git remote add origin git@github.com:ogihara0833/samurai-terakoya.git
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\ogiha> 
